@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/*tudo em html que é id em css é #
+e em html class é em css é . */
+{height: 100%;}
+body{
+background-image:linear-gradient( to right, #075391, #08809C, #00847A, #089C65, #079138 ); 
+font-family: Arial, Helvetica, sans-serif;}
+h1{color:rgba(26, 196, 4, 0.993);  background-color: #643b0654;}
+#principal{text-align: center;
+background-color: rgb(29, 221, 221); color: white;}
+h2{ color:rgb(3, 233, 34)}
+.basico{
+    color: #0BE35C; font-weight:300;}
+.intermed{ color: #00CC8D; font-weight: 300;}
+.avançado{ color: #CC2A00; font-weight: 300;}
+.destaque{background-color: #4a120071;}
