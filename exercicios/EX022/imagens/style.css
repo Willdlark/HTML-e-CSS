@@ -1,0 +1,8 @@
+@charset "UTF-8"
+
+div{border: 2px black;
+    height: 300px;
+   width: 300px;
+   color: rgb(196, 24, 24);
+   border-radius: 10px;
+   display: inline-block;}
