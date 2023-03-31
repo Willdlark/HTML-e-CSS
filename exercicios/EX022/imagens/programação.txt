@@ -1,0 +1,85 @@
+Programação informações:
+Sigla UTF-8 =
+B BYTES = armazenamento, b bites transferencia de dados
+8 bits = 1 byte
+1024 bytes = 1 kilobytes
+1024 KB = 1 MB
+1024 mb = 1 GB
+1024 GB = 1 TB
+1024 TB = 1 PB
+1024 PB = 1 EB
+1024 EB = 1 ZB
+1024 ZB = 1 YB
+
+HTML: CONTEUDO: TEXTOS, IMAGENS, VÍDEOS, TABELAS: HTML: LINGAGUEM DE MARCAÇÃO HIPERTEXTO	
+CSS: ESTILO: DESIGN, CORES, SOMBRAS, TAMANHOS. POSICIONAMENTO FOLHAS DE ESTILO EM CASCATA
+JS: INTERATIVIDADE: MENOS INTERATIVOS, POPUPS, ANIMAÇÕES, VALIDAÇÕES
+
+
+pra criar um hiper texto <h1>"Exemplo de texto"</h1>
+
+pra modificar um hiper texto: css: H1{
+font-family:Arial;
+font-size:20pt;
+color:blue;
+
+}
+
+H1 é o seletor, entre as chaves é a declaração
+
+estrutura básica do HTML:
+<!DOCTYPE html> tag especifica de declaração pra dizer que ta criando um doc de html
+<html lang="pt-br">
+   <head>
+	<meta charset="UTF-8">(significa que o site vai ler os caracteres
+	<meta name="viewport"
+	content="width=device-width, initial-scale=1.0">
+
+
+    </head>
+    <body>
+	<h1>Olá, Mundo!</h1>
+
+
+    </body>
+
+</html>
+
+a maioria das tags possuem abertura e fechamento
+<head> e </head>
+lang = idioma do site
+charset = configuração de caracteres e UTF-8 é o padrão pra linguagem br
+name="viewport" significa que o site vai ocupar 100% da tela disponivel
+content="width=device-width, initial-scale=1.0"> quer dizer que ela vai ocupar 1.0
+
+sites para buscar imagens unplash, pexels, o próprio google com o filtro de reutilização com tendencia comercial com alteração
+Para de gerar um favicon é bom o site Favicon.io e o favicon cc
+
+HTML5 site para saber quais tags que pararam de funcionar 
+TAG = HEAD, BODY, etc
+
+nome do site: 13 obsolete features - html5
+ficar sempre de olho nas tag que são funcionando
+
+formatação:  negrito= tag B, sublinhado= tag U, 
+deixar em negrito tbm a tag Strong(especifico para dar destaque)
+tag em = italico
+tag Q = citação com valor semantico ""
+Code e Pre= pra códigos em outras linguagens
+tag Blockquote = citação pra um livro
+tag bdo = texto invertido
+tag abbr = abreviação
+Tag picture =  para mexer com imagens dinamicas utilizando a tag source
+as ordens tem que ser obedecidas, não pode botar uma imagem P antes da M
+ADOBE COLOR PARA MONTAR UMA PALHETA DE CORES PRA UM SITE 
+e para testar a palheta de cores é bom o paletton
+font-weight: peso da fonte: de 100 a 900 nivel do negritro
+font-style: italic ou normal.
+font-width: largura
+font-high: altura
+google fonts: para conseguir qualquer font: utilizando o @imports
+fontes externas: para pegar uma font externa utilize o site dafonte
+baixe a fonte, os arquivos virão na forma otf: opentype ou ttf: truetype
+ou truetype-aat(apple advanced typography).
+pra pegar fonts de imagens utilize o whatfontis ou o fontsquirrel
+Mockflow para planejar sites
