@@ -7,7 +7,8 @@
     <title>Uso de iframes</title>
     <style>
         body{ font-family: Arial, Helvetica, sans-serif;}
-        #s{ width: 95vw; height: 400px; border: 1px solid black;}
+        #s{ width: 95vw; height: 400px; border: 1px solid black; background-image: url(Imagens/background001.jpg); background-size: 100% 100%; background-repeat:no-repeat; background-position: right center;}
+        
     </style>
 </head>
 <body>
@@ -17,7 +18,7 @@
     <li><a href="Páginasextras/pag02.html" target="frame">segunda página</a></li>
     <li><a href="Páginasextras/pag03.html" target="frame">Terceira página</a></li></ul>
     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita sunt voluptates ab vero dolorem, magnam, dignissimos explicabo autem id sequi voluptate perspiciatis exercitationem. Saepe sapiente, possimus voluptatem nisi quidem autem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos consectetur totam sequi est molestiae beatae, reprehenderit impedit itaque vero aliquam, esse accusantium natus cumque eveniet obcaecati corrupti quisquam, placeat ea.</p>
-    <iframe id="s" name="frame" src="" frameborder="0"> <p>Infelizmente seu Navegador não é compativel</p></iframe>
+    <iframe id="s" name="frame" srcdoc="<h1> escolha uma das opções acima </h1><p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta, ducimus officiis. Eius temporibus ratione impedit repellat exercitationem. Eius nisi enim ab ipsum dignissimos ut totam, quas quod itaque eveniet? Iusto.</p>"> <p>Infelizmente seu Navegador não é compativel</p></iframe>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam quis, quidem vel vitae fugit obcaecati ex porro et sint necessitatibus odit accusantium eum harum illo voluptatem voluptatibus consectetur amet voluptatum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. In repellat voluptatibus ullam laboriosam enim quaerat voluptatem, excepturi voluptatum hic fuga error incidunt vitae asperiores nemo laborum. Quis adipisci exercitationem provident.</p>
     
 </body>
