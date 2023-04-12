@@ -8,5 +8,9 @@ section#telefone{
     height: 627px; width: 311px; background-image: url(pacote-d013/imagens/frame-iphone.png); position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
 #frame{ height: 470px; width: 265px; position: absolute; top: 80px; left: 21px;}
 
+#redes-sociais img{width: 50px; margin: 10px; border-radius: 50%; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.61); box-sizing: border-box;}
+section#redes-sociais img:hover{ border: 1.5px solid rgb(255, 255, 255); transform: translate(-5px, -5px); box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.63); transition: transform 0.5s; transition: border 0.5s;}
+#redes-sociais { text-align: right;}
+
 
 
