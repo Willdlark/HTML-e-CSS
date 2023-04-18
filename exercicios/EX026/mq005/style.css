@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+
+*{margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;}
+header{text-align: center;
+    background-color: rgb(151, 151, 151);
+    height: 100px;}
+header a{background-color: rgb(78, 78, 78); color: white; padding: 8px; text-decoration: none; box-shadow: 0.1px 0.1px 1px black;}
+header a:hover{ background-color: rgba(58, 58, 58, 0.308);
+transition: 0.3s;
+}
+header h1{ padding: 10px; margin-bottom: 17px;}
+header > menu{text-align: left;}
+main{
+    text-align: justify; margin: auto; margin: 5px 15%; border: 2px 2px 2px black; border-radius: 10px; background-color: white; padding: 10px;}
+body{background-color: lightgray; height: 100vh; }
+main h1,p{
+    padding: 15px; text-indent: 2em;
+}
