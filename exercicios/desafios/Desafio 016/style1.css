@@ -4,20 +4,37 @@
 #login{width: 600px; height: 500px;}
 body{
     background-image:linear-gradient( to bottom, #079138, #089c46, #008451, #089c7c,#38a7a1 ); background-repeat: no-repeat; background-size: cover; position: relative;}
-section#login{  background-position: left bottom; width: 700px; height: 500px; display: inline-block; ;}
+section#login{  background-position: left bottom; width: 700px; height: 400px; display: inline-block; ;}
 section#login div#imagem{
-    float: left; width: 280px; height: 500px;
+    float: left; width: 280px; height: 400px;
 }
-#div#form{float: right; width: 420px; height: 500px;}
+#div#form{float: right; width: 420px; height: 400px;}
+form #submit{
+    width: 30%;}
+#form #botao{ width: 30%; margin-right: 105px;}
+
+div.campo > input{
+    background-color: rgb(207, 249, 255); border: 0px; height: 100%; border-radius: 5px; width: 55%; transform: translateY(-13px);
+} 
 }
+
+
 
 @media screen and (min-width: 992px){
 
 body{
         background-image:linear-gradient( to bottom, #079138, #089c46, #008451, #089c7c,#38a7a1 ); background-repeat: no-repeat; background-size: cover; position: relative;}
-section#login{  background-position: left bottom; width: 800px; height: 600px;}
+section#login{  background-position: left bottom; width: 800px; height: 600px; transition: 0.1s;}
 section#login div#imagem{
-        float: right; width: 320px; height: 600px;
+        float: right; width: 400px; height: 600px;
     }
-#div#form{float: left; width: 480px; height: 600px;}
-    }
+#div#form{float: left; width: 400px; height: 600px;}
+form #submit{ width: 30%;}
+#botao{
+     width: 30%; margin-left: 10%;
+}
+div.campo > input{
+    background-color: rgb(207, 249, 255); border: 0px; height: 100%; border-radius: 5px; width: 45.69%; transform: translateY(-13px);
+} 
+.campo{ border-radius: 5px;}
+}
